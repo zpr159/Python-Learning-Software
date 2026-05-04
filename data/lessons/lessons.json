@@ -1,14 +1,101 @@
 {
-    "1": {
-        "title": "Introduction to Python",
-        "content": "Python is a high-level, interpreted programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. Python emphasizes code readability with its use of significant whitespace.\n\nKey features:\n- Easy to learn syntax\n- Dynamic typing\n- Extensive standard library\n- Cross-platform compatibility\n\nTo write your first Python program, simply print 'Hello, World!':\nprint('Hello, World!')"
-    },
-    "2": {
-        "title": "Variables and Data Types",
-        "content": "Variables are containers for storing data values. In Python, you don't need to declare the type of a variable explicitly.\n\nBasic data types:\n- int: integers (1, 42, -5)\n- float: floating-point numbers (3.14, -0.001)\n- str: strings ('hello', \"world\")\n- bool: boolean (True, False)\n\nExample:\nname = 'Alice'\nage = 25\nheight = 5.6\nis_student = True"
-    },
-    "3": {
-        "title": "Control Structures",
-        "content": "Control structures allow you to control the flow of your program.\n\nIf statements:\nif condition:\n    # do something\n\nLoops:\nfor item in iterable:\n    # do something\n\nwhile condition:\n    # do something"
-    }
+  "1": {
+    "title": "Introduction to Python",
+    "content": "Python is a high-level, interpreted, and general-purpose programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991.\n\nPython is widely used in:\n- Web development\n- Data science\n- Artificial Intelligence\n- Automation\n- Game development\n\nKey Features:\n- Easy to learn and read\n- Interpreted (no compilation required)\n- Dynamically typed\n- Extensive standard library\n- Cross-platform compatibility\n\nPython Syntax Example:\nprint('Hello, World!')\n\nPython uses indentation (spaces) instead of braces to define code blocks."
+  },
+
+  "2": {
+    "title": "Variables and Data Types",
+    "content": "Variables are used to store data values. Python automatically determines the data type.\n\nRules:\n- No need to declare type\n- Case-sensitive\n- Cannot start with a number\n\nBasic Data Types:\n- int: Whole numbers (10, -5)\n- float: Decimal numbers (3.14)\n- str: Text ('Hello')\n- bool: True or False\n\nExample:\nname = 'Raj'\nage = 21\nheight = 5.9\nis_student = True\n\nType Checking:\nprint(type(name))\n\nType Conversion:\nx = int('10')"
+  },
+
+  "3": {
+    "title": "Operators",
+    "content": "Operators are used to perform operations on variables and values.\n\nTypes of Operators:\n\n1. Arithmetic:\n+, -, *, /, %, **, //\n\n2. Comparison:\n==, !=, >, <, >=, <=\n\n3. Logical:\nand, or, not\n\n4. Assignment:\n=, +=, -=, *=\n\nExample:\na = 10\nb = 3\nprint(a + b)\nprint(a ** b)\nprint(a > b)\n\nOperator Precedence follows mathematical rules (BODMAS)."
+  },
+
+  "4": {
+    "title": "Control Structures",
+    "content": "Control structures control the flow of execution.\n\nIf Statement:\nx = 10\nif x > 5:\n    print('Greater')\n\nIf-Else:\nif x % 2 == 0:\n    print('Even')\nelse:\n    print('Odd')\n\nNested If:\nif x > 0:\n    if x < 100:\n        print('Valid')\n\nLoops:\n\nFor Loop:\nfor i in range(5):\n    print(i)\n\nWhile Loop:\nx = 0\nwhile x < 5:\n    print(x)\n    x += 1\n\nBreak & Continue:\nbreak stops loop\ncontinue skips iteration"
+  },
+
+  "5": {
+    "title": "Strings",
+    "content": "Strings are sequences of characters.\n\nExample:\ntext = 'Python'\n\nOperations:\n- Concatenation: text + ' Language'\n- Repetition: text * 2\n- Indexing: text[0]\n- Slicing: text[1:4]\n\nString Methods:\ntext.lower()\ntext.upper()\ntext.strip()\ntext.replace('Py', 'My')\n\nFormatted Strings:\nname = 'Raj'\nprint(f'Hello {name}')"
+  },
+
+  "6": {
+    "title": "Lists",
+    "content": "Lists are ordered, mutable collections.\n\nExample:\nnumbers = [1, 2, 3, 4]\n\nOperations:\nnumbers.append(5)\nnumbers.remove(2)\nnumbers.sort()\n\nIndexing & Slicing:\nnumbers[0]\nnumbers[1:3]\n\nNested Lists:\nmatrix = [[1,2],[3,4]]"
+  },
+
+  "7": {
+    "title": "Tuples and Sets",
+    "content": "Tuple:\n- Ordered\n- Immutable\n\nExample:\nt = (1, 2, 3)\n\nSet:\n- Unordered\n- Unique elements\n\nExample:\ns = {1, 2, 3, 3}\nprint(s)  # duplicates removed\n\nSet Operations:\ns.add(4)\ns.remove(2)"
+  },
+
+  "8": {
+    "title": "Dictionaries",
+    "content": "Dictionaries store key-value pairs.\n\nExample:\nperson = {\n    'name': 'Raj',\n    'age': 21\n}\n\nAccess:\nperson['name']\n\nMethods:\nperson.keys()\nperson.values()\nperson.items()\n\nUpdate:\nperson['age'] = 22"
+  },
+
+  "9": {
+    "title": "Functions",
+    "content": "Functions are reusable blocks of code.\n\nDefining:\ndef add(a, b):\n    return a + b\n\nCalling:\nprint(add(2, 3))\n\nDefault Parameters:\ndef greet(name='User'):\n    print('Hello', name)\n\nKeyword Arguments:\ngreet(name='Raj')"
+  },
+
+  "10": {
+    "title": "Recursion",
+    "content": "A function calling itself.\n\nExample:\ndef factorial(n):\n    if n == 1:\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(5))"
+  },
+
+  "11": {
+    "title": "File Handling",
+    "content": "Used to read/write files.\n\nModes:\n'r' read\n'w' write\n'a' append\n\nExample:\nwith open('file.txt', 'w') as f:\n    f.write('Hello')\n\nReading:\nwith open('file.txt', 'r') as f:\n    print(f.read())"
+  },
+
+  "12": {
+    "title": "Exception Handling",
+    "content": "Handles errors gracefully.\n\nExample:\ntry:\n    x = int('abc')\nexcept ValueError:\n    print('Invalid input')\nfinally:\n    print('Done')"
+  },
+
+  "13": {
+    "title": "Object-Oriented Programming",
+    "content": "OOP is based on objects and classes.\n\nClass Example:\nclass Person:\n    def __init__(self, name):\n        self.name = name\n\n    def greet(self):\n        print('Hello', self.name)\n\np = Person('Raj')\np.greet()\n\nConcepts:\n- Encapsulation\n- Inheritance\n- Polymorphism\n- Abstraction"
+  },
+
+  "14": {
+    "title": "Modules and Packages",
+    "content": "Modules are Python files.\n\nImport:\nimport math\nprint(math.sqrt(16))\n\nCustom Module:\nCreate mymodule.py and import it.\n\nPackages are folders containing modules."
+  },
+
+  "15": {
+    "title": "Decorators",
+    "content": "Decorators modify function behavior.\n\nExample:\ndef decorator(func):\n    def wrapper():\n        print('Before')\n        func()\n        print('After')\n    return wrapper\n\n@decorator\ndef say_hi():\n    print('Hi')\n\nsay_hi()"
+  },
+
+  "16": {
+    "title": "Generators",
+    "content": "Generators yield values one at a time.\n\nExample:\ndef count(n):\n    for i in range(n):\n        yield i\n\nfor num in count(5):\n    print(num)"
+  },
+
+  "17": {
+    "title": "Multithreading",
+    "content": "Allows multiple threads to run.\n\nExample:\nimport threading\n\ndef task():\n    print('Running')\n\nthread = threading.Thread(target=task)\nthread.start()"
+  },
+
+  "18": {
+    "title": "Working with APIs",
+    "content": "APIs allow communication with servers.\n\nExample:\nimport requests\nres = requests.get('https://api.github.com')\nprint(res.status_code)"
+  },
+
+  "19": {
+    "title": "Database (SQLite)",
+    "content": "Python supports databases.\n\nExample:\nimport sqlite3\nconn = sqlite3.connect('db.db')\nc = conn.cursor()\nc.execute('CREATE TABLE users(name TEXT)')\nconn.close()"
+  },
+
+  "20": {
+    "title": "Advanced Topics",
+    "content": "Includes:\n- Async Programming (async/await)\n- Data Science (NumPy, Pandas)\n- Machine Learning\n- Web Frameworks (Django, Flask)\n\nExample Async:\nimport asyncio\n\nasync def main():\n    print('Hello')\n\nasyncio.run(main())"
+  }
 }
