@@ -1,14 +1,126 @@
 {
-    "1": {
-        "title": "Hello World",
-        "code": "print('Hello, World!')"
-    },
-    "2": {
-        "title": "Variables",
-        "code": "name = 'Alice'\nprint('Hello, ' + name)"
-    },
-    "3": {
-        "title": "Loop",
-        "code": "for i in range(5):\n    print(i)"
-    }
+  "1": {
+    "title": "Hello World",
+    "code": "print('Hello, World!')"
+  },
+
+  "2": {
+    "title": "Variables",
+    "code": "name = 'Raj'\nage = 21\nprint('Hello ' + name)\nprint(age)"
+  },
+
+  "3": {
+    "title": "User Input",
+    "code": "name = input('Enter your name: ')\nprint('Welcome ' + name)"
+  },
+
+  "4": {
+    "title": "If-Else Condition",
+    "code": "num = 10\nif num % 2 == 0:\n    print('Even')\nelse:\n    print('Odd')"
+  },
+
+  "5": {
+    "title": "For Loop",
+    "code": "for i in range(5):\n    print(i)"
+  },
+
+  "6": {
+    "title": "While Loop",
+    "code": "x = 0\nwhile x < 5:\n    print(x)\n    x += 1"
+  },
+
+  "7": {
+    "title": "List Example",
+    "code": "fruits = ['apple', 'banana', 'mango']\nfor fruit in fruits:\n    print(fruit)"
+  },
+
+  "8": {
+    "title": "List Operations",
+    "code": "numbers = [1, 2, 3]\nnumbers.append(4)\nnumbers.remove(2)\nprint(numbers)"
+  },
+
+  "9": {
+    "title": "Dictionary Example",
+    "code": "person = {'name': 'Raj', 'age': 21}\nprint(person['name'])\nperson['age'] = 22\nprint(person)"
+  },
+
+  "10": {
+    "title": "Functions",
+    "code": "def add(a, b):\n    return a + b\n\nresult = add(5, 3)\nprint(result)"
+  },
+
+  "11": {
+    "title": "Lambda Function",
+    "code": "add = lambda a, b: a + b\nprint(add(2, 3))"
+  },
+
+  "12": {
+    "title": "List Comprehension",
+    "code": "squares = [x*x for x in range(5)]\nprint(squares)"
+  },
+
+  "13": {
+    "title": "File Write",
+    "code": "with open('test.txt', 'w') as f:\n    f.write('Hello File')"
+  },
+
+  "14": {
+    "title": "File Read",
+    "code": "with open('test.txt', 'r') as f:\n    print(f.read())"
+  },
+
+  "15": {
+    "title": "Exception Handling",
+    "code": "try:\n    num = int('abc')\nexcept ValueError:\n    print('Conversion Error')"
+  },
+
+  "16": {
+    "title": "Class and Object",
+    "code": "class Person:\n    def __init__(self, name):\n        self.name = name\n\np = Person('Raj')\nprint(p.name)"
+  },
+
+  "17": {
+    "title": "Inheritance",
+    "code": "class Animal:\n    def speak(self):\n        print('Animal speaks')\n\nclass Dog(Animal):\n    def speak(self):\n        print('Dog barks')\n\nd = Dog()\nd.speak()"
+  },
+
+  "18": {
+    "title": "Module Usage",
+    "code": "import math\nprint(math.sqrt(25))"
+  },
+
+  "19": {
+    "title": "API Request",
+    "code": "import requests\nres = requests.get('https://api.github.com')\nprint(res.status_code)"
+  },
+
+  "20": {
+    "title": "SQLite Database",
+    "code": "import sqlite3\nconn = sqlite3.connect('test.db')\nc = conn.cursor()\nc.execute('CREATE TABLE IF NOT EXISTS users(name TEXT)')\nc.execute(\"INSERT INTO users VALUES('Raj')\")\nconn.commit()\nconn.close()"
+  },
+
+  "21": {
+    "title": "Generator",
+    "code": "def count(n):\n    for i in range(n):\n        yield i\n\nfor num in count(5):\n    print(num)"
+  },
+
+  "22": {
+    "title": "Decorator",
+    "code": "def decorator(func):\n    def wrapper():\n        print('Before')\n        func()\n        print('After')\n    return wrapper\n\n@decorator\ndef say_hi():\n    print('Hi')\n\nsay_hi()"
+  },
+
+  "23": {
+    "title": "Multithreading",
+    "code": "import threading\n\ndef task():\n    print('Running in thread')\n\nt = threading.Thread(target=task)\nt.start()\nt.join()"
+  },
+
+  "24": {
+    "title": "Async Programming",
+    "code": "import asyncio\n\nasync def main():\n    print('Hello Async')\n\nasyncio.run(main())"
+  },
+
+  "25": {
+    "title": "Simple CLI Calculator",
+    "code": "a = int(input('Enter first number: '))\nb = int(input('Enter second number: '))\nprint('Sum:', a + b)"
+  }
 }
