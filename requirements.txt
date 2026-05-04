@@ -1,0 +1,4 @@
+# Requirements for Python Learning App
+
+# Tkinter is built-in with Python
+# No additional packages needed

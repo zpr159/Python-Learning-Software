@@ -1,0 +1,12 @@
+{
+    "1": {
+        "question": "What is Python?",
+        "options": ["A snake", "A programming language", "A type of coffee"],
+        "answer": 1
+    },
+    "2": {
+        "question": "Which of these is a valid Python variable name?",
+        "options": ["2variable", "variable-name", "variable_name"],
+        "answer": 2
+    }
+}

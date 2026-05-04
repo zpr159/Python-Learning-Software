@@ -1,0 +1,14 @@
+{
+    "1": {
+        "title": "Introduction to Python",
+        "content": "Python is a high-level, interpreted programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. Python emphasizes code readability with its use of significant whitespace.\n\nKey features:\n- Easy to learn syntax\n- Dynamic typing\n- Extensive standard library\n- Cross-platform compatibility\n\nTo write your first Python program, simply print 'Hello, World!':\nprint('Hello, World!')"
+    },
+    "2": {
+        "title": "Variables and Data Types",
+        "content": "Variables are containers for storing data values. In Python, you don't need to declare the type of a variable explicitly.\n\nBasic data types:\n- int: integers (1, 42, -5)\n- float: floating-point numbers (3.14, -0.001)\n- str: strings ('hello', \"world\")\n- bool: boolean (True, False)\n\nExample:\nname = 'Alice'\nage = 25\nheight = 5.6\nis_student = True"
+    },
+    "3": {
+        "title": "Control Structures",
+        "content": "Control structures allow you to control the flow of your program.\n\nIf statements:\nif condition:\n    # do something\n\nLoops:\nfor item in iterable:\n    # do something\n\nwhile condition:\n    # do something"
+    }
+}

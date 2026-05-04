@@ -1,0 +1,14 @@
+{
+    "1": {
+        "title": "Hello World",
+        "code": "print('Hello, World!')"
+    },
+    "2": {
+        "title": "Variables",
+        "code": "name = 'Alice'\nprint('Hello, ' + name)"
+    },
+    "3": {
+        "title": "Loop",
+        "code": "for i in range(5):\n    print(i)"
+    }
+}
