@@ -1,17 +1,520 @@
 {
-    "1": {
-        "question": "What is Python?",
-        "options": ["A snake", "A programming language", "A type of coffee"],
-        "answer": 1
-    },
-    "2": {
-        "question": "Which of these is a valid Python variable name?",
-        "options": ["2variable", "variable-name", "variable_name"],
-        "answer": 2
-    }
-    "3": {
-        "question": "Which of these is the basic project?",
-        "options": ["My_World", "Your_World", "Hello_World"],
-        "answer": 3
-    }
+  "1": {
+    "question": "What is Python?",
+    "options": ["A snake", "A programming language", "A type of coffee"],
+    "answer": 1
+  },
+  "2": {
+    "question": "Which of these is a valid Python variable name?",
+    "options": ["2variable", "variable-name", "variable_name"],
+    "answer": 2
+  },
+  "3": {
+    "question": "Which of these is the basic project?",
+    "options": ["My_World", "Your_World", "Hello_World"],
+    "answer": 2
+  },
+  "4": {
+    "question": "Which keyword is used to define a function?",
+    "options": ["func", "def", "function"],
+    "answer": 1
+  },
+  "5": {
+    "question": "What is the output of print(2+3)?",
+    "options": ["23", "5", "Error"],
+    "answer": 1
+  },
+  "6": {
+    "question": "Which data type is immutable?",
+    "options": ["List", "Dictionary", "Tuple"],
+    "answer": 2
+  },
+  "7": {
+    "question": "Which symbol is used for comments?",
+    "options": ["//", "#", "/* */"],
+    "answer": 1
+  },
+  "8": {
+    "question": "Which loop runs until condition is false?",
+    "options": ["for", "while", "loop"],
+    "answer": 1
+  },
+  "9": {
+    "question": "Which function gets user input?",
+    "options": ["input()", "scan()", "get()"],
+    "answer": 0
+  },
+  "10": {
+    "question": "Which keyword is used for conditions?",
+    "options": ["if", "loop", "check"],
+    "answer": 0
+  },
+
+  "11": {
+    "question": "What is len([1,2,3])?",
+    "options": ["2", "3", "4"],
+    "answer": 1
+  },
+  "12": {
+    "question": "Which is a float?",
+    "options": ["10", "10.5", "'10'"],
+    "answer": 1
+  },
+  "13": {
+    "question": "Which operator means power?",
+    "options": ["^", "**", "*"],
+    "answer": 1
+  },
+  "14": {
+    "question": "Which is used to store multiple values?",
+    "options": ["List", "int", "bool"],
+    "answer": 0
+  },
+  "15": {
+    "question": "Which keyword exits a loop?",
+    "options": ["stop", "exit", "break"],
+    "answer": 2
+  },
+
+  "16": {
+    "question": "Which keyword skips iteration?",
+    "options": ["pass", "skip", "continue"],
+    "answer": 2
+  },
+  "17": {
+    "question": "Which function converts to int?",
+    "options": ["int()", "str()", "float()"],
+    "answer": 0
+  },
+  "18": {
+    "question": "Which is correct list?",
+    "options": ["(1,2)", "[1,2]", "{1,2}"],
+    "answer": 1
+  },
+  "19": {
+    "question": "Which is correct dictionary?",
+    "options": ["{a:1}", "{'a':1}", "[a:1]"],
+    "answer": 1
+  },
+  "20": {
+    "question": "Which is boolean?",
+    "options": ["True", "Yes", "1"],
+    "answer": 0
+  },
+
+  "21": {
+    "question": "Which method adds item to list?",
+    "options": ["add()", "append()", "insert()"],
+    "answer": 1
+  },
+  "22": {
+    "question": "Which removes item?",
+    "options": ["delete()", "remove()", "popit()"],
+    "answer": 1
+  },
+  "23": {
+    "question": "Which gets length?",
+    "options": ["count()", "len()", "size()"],
+    "answer": 1
+  },
+  "24": {
+    "question": "Which sorts list?",
+    "options": ["sort()", "order()", "arrange()"],
+    "answer": 0
+  },
+  "25": {
+    "question": "Which reverses list?",
+    "options": ["reverse()", "flip()", "back()"],
+    "answer": 0
+  },
+
+  "26": {
+    "question": "Which is correct string?",
+    "options": ["'hello'", "123", "True"],
+    "answer": 0
+  },
+  "27": {
+    "question": "Which joins strings?",
+    "options": ["+", "&", "*"],
+    "answer": 0
+  },
+  "28": {
+    "question": "Which slices string?",
+    "options": ["[1:3]", "(1,3)", "{1,3}"],
+    "answer": 0
+  },
+  "29": {
+    "question": "Which makes lowercase?",
+    "options": ["lower()", "small()", "down()"],
+    "answer": 0
+  },
+  "30": {
+    "question": "Which replaces text?",
+    "options": ["replace()", "change()", "edit()"],
+    "answer": 0
+  },
+
+  "31": {
+    "question": "Which is tuple?",
+    "options": ["[1,2]", "(1,2)", "{1,2}"],
+    "answer": 1
+  },
+  "32": {
+    "question": "Tuple is?",
+    "options": ["Mutable", "Immutable", "Editable"],
+    "answer": 1
+  },
+  "33": {
+    "question": "Set removes?",
+    "options": ["Duplicates", "Values", "Keys"],
+    "answer": 0
+  },
+  "34": {
+    "question": "Which adds set item?",
+    "options": ["append()", "add()", "insert()"],
+    "answer": 1
+  },
+  "35": {
+    "question": "Which removes set item?",
+    "options": ["remove()", "delete()", "popit()"],
+    "answer": 0
+  },
+
+  "36": {
+    "question": "Which defines class?",
+    "options": ["class", "object", "define"],
+    "answer": 0
+  },
+  "37": {
+    "question": "Constructor name?",
+    "options": ["init()", "__init__", "start()"],
+    "answer": 1
+  },
+  "38": {
+    "question": "Self refers to?",
+    "options": ["Class", "Object", "Function"],
+    "answer": 1
+  },
+  "39": {
+    "question": "Inheritance means?",
+    "options": ["Reuse code", "Delete code", "Write code"],
+    "answer": 0
+  },
+  "40": {
+    "question": "Polymorphism means?",
+    "options": ["One form", "Many forms", "No form"],
+    "answer": 1
+  },
+
+  "41": {
+    "question": "Which handles errors?",
+    "options": ["try", "error", "fix"],
+    "answer": 0
+  },
+  "42": {
+    "question": "Which catches error?",
+    "options": ["catch", "except", "handle"],
+    "answer": 1
+  },
+  "43": {
+    "question": "Finally block runs?",
+    "options": ["Always", "Never", "Sometimes"],
+    "answer": 0
+  },
+  "44": {
+    "question": "Which opens file?",
+    "options": ["file()", "open()", "read()"],
+    "answer": 1
+  },
+  "45": {
+    "question": "Write mode?",
+    "options": ["r", "w", "a"],
+    "answer": 1
+  },
+
+  "46": {
+    "question": "Append mode?",
+    "options": ["a", "w", "r"],
+    "answer": 0
+  },
+  "47": {
+    "question": "Read mode?",
+    "options": ["r", "w", "a"],
+    "answer": 0
+  },
+  "48": {
+    "question": "Which reads file?",
+    "options": ["read()", "write()", "open()"],
+    "answer": 0
+  },
+  "49": {
+    "question": "Which writes file?",
+    "options": ["write()", "read()", "open()"],
+    "answer": 0
+  },
+  "50": {
+    "question": "Which closes file?",
+    "options": ["close()", "end()", "stop()"],
+    "answer": 0
+  },
+
+  "51": {
+    "question": "Which module for math?",
+    "options": ["calc", "math", "num"],
+    "answer": 1
+  },
+  "52": {
+    "question": "sqrt comes from?",
+    "options": ["math", "calc", "root"],
+    "answer": 0
+  },
+  "53": {
+    "question": "Random module?",
+    "options": ["random", "rand", "r"],
+    "answer": 0
+  },
+  "54": {
+    "question": "Which generates random?",
+    "options": ["rand()", "random()", "gen()"],
+    "answer": 1
+  },
+  "55": {
+    "question": "Which imports module?",
+    "options": ["use", "import", "include"],
+    "answer": 1
+  },
+
+  "56": {
+    "question": "Lambda is?",
+    "options": ["Named", "Anonymous", "Loop"],
+    "answer": 1
+  },
+  "57": {
+    "question": "Generator uses?",
+    "options": ["yield", "return", "send"],
+    "answer": 0
+  },
+  "58": {
+    "question": "Decorator modifies?",
+    "options": ["Function", "Loop", "Variable"],
+    "answer": 0
+  },
+  "59": {
+    "question": "Threading is?",
+    "options": ["Single", "Multi", "None"],
+    "answer": 1
+  },
+  "60": {
+    "question": "Async uses?",
+    "options": ["async", "wait", "delay"],
+    "answer": 0
+  },
+
+  "61": {
+    "question": "Which creates list comprehension?",
+    "options": ["[]", "{}", "()"],
+    "answer": 0
+  },
+  "62": {
+    "question": "Which is correct syntax?",
+    "options": ["[x for x in range(5)]", "(x in range)", "{x:5}"],
+    "answer": 0
+  },
+  "63": {
+    "question": "Which converts string?",
+    "options": ["str()", "int()", "float()"],
+    "answer": 0
+  },
+  "64": {
+    "question": "Which converts float?",
+    "options": ["float()", "str()", "int()"],
+    "answer": 0
+  },
+  "65": {
+    "question": "Which converts int?",
+    "options": ["int()", "float()", "str()"],
+    "answer": 0
+  },
+
+  "66": {
+    "question": "Which checks type?",
+    "options": ["type()", "check()", "typeof()"],
+    "answer": 0
+  },
+  "67": {
+    "question": "Which returns range?",
+    "options": ["range()", "list()", "loop()"],
+    "answer": 0
+  },
+  "68": {
+    "question": "Which joins list?",
+    "options": ["join()", "merge()", "add()"],
+    "answer": 0
+  },
+  "69": {
+    "question": "Which splits string?",
+    "options": ["split()", "break()", "cut()"],
+    "answer": 0
+  },
+  "70": {
+    "question": "Which trims string?",
+    "options": ["strip()", "cut()", "trim()"],
+    "answer": 0
+  },
+
+  "71": {
+    "question": "Which database module?",
+    "options": ["sqlite3", "db", "sql"],
+    "answer": 0
+  },
+  "72": {
+    "question": "Which creates table?",
+    "options": ["CREATE", "MAKE", "TABLE"],
+    "answer": 0
+  },
+  "73": {
+    "question": "Which inserts data?",
+    "options": ["INSERT", "ADD", "PUT"],
+    "answer": 0
+  },
+  "74": {
+    "question": "Which selects data?",
+    "options": ["SELECT", "GET", "FETCH"],
+    "answer": 0
+  },
+  "75": {
+    "question": "Which commits changes?",
+    "options": ["commit()", "save()", "apply()"],
+    "answer": 0
+  },
+
+  "76": {
+    "question": "Which library for HTTP?",
+    "options": ["requests", "http", "net"],
+    "answer": 0
+  },
+  "77": {
+    "question": "GET request?",
+    "options": ["get()", "fetch()", "call()"],
+    "answer": 0
+  },
+  "78": {
+    "question": "POST request?",
+    "options": ["post()", "send()", "push()"],
+    "answer": 0
+  },
+  "79": {
+    "question": "Status code 200 means?",
+    "options": ["Error", "Success", "Fail"],
+    "answer": 1
+  },
+  "80": {
+    "question": "JSON is?",
+    "options": ["Format", "Language", "Loop"],
+    "answer": 0
+  },
+
+  "81": {
+    "question": "Which converts JSON?",
+    "options": ["json()", "loads()", "convert()"],
+    "answer": 1
+  },
+  "82": {
+    "question": "Which dumps JSON?",
+    "options": ["dump()", "save()", "write()"],
+    "answer": 0
+  },
+  "83": {
+    "question": "Which framework for web?",
+    "options": ["Django", "Flask", "Both"],
+    "answer": 2
+  },
+  "84": {
+    "question": "Flask is?",
+    "options": ["Heavy", "Lightweight", "None"],
+    "answer": 1
+  },
+  "85": {
+    "question": "Django is?",
+    "options": ["Full-stack", "Light", "None"],
+    "answer": 0
+  },
+
+  "86": {
+    "question": "Which library for arrays?",
+    "options": ["NumPy", "Array", "List"],
+    "answer": 0
+  },
+  "87": {
+    "question": "Which library for data?",
+    "options": ["Pandas", "Data", "Table"],
+    "answer": 0
+  },
+  "88": {
+    "question": "Which plots graphs?",
+    "options": ["Matplotlib", "Graph", "Plot"],
+    "answer": 0
+  },
+  "89": {
+    "question": "Which ML library?",
+    "options": ["Scikit-learn", "ML", "AI"],
+    "answer": 0
+  },
+  "90": {
+    "question": "Which deep learning?",
+    "options": ["TensorFlow", "Deep", "Brain"],
+    "answer": 0
+  },
+
+  "91": {
+    "question": "Which keyword for async?",
+    "options": ["async", "await", "both"],
+    "answer": 2
+  },
+  "92": {
+    "question": "Await is used for?",
+    "options": ["Pause", "Loop", "Stop"],
+    "answer": 0
+  },
+  "93": {
+    "question": "Thread vs process?",
+    "options": ["Same", "Different", "None"],
+    "answer": 1
+  },
+  "94": {
+    "question": "Which is faster?",
+    "options": ["Thread", "Async", "Depends"],
+    "answer": 2
+  },
+  "95": {
+    "question": "GIL affects?",
+    "options": ["Threads", "Files", "Loops"],
+    "answer": 0
+  },
+
+  "96": {
+    "question": "Which builds GUI?",
+    "options": ["Tkinter", "UI", "Screen"],
+    "answer": 0
+  },
+  "97": {
+    "question": "Which package installer?",
+    "options": ["pip", "install", "pkg"],
+    "answer": 0
+  },
+  "98": {
+    "question": "Virtual env?",
+    "options": ["Isolation", "Loop", "Function"],
+    "answer": 0
+  },
+  "99": {
+    "question": "Which runs Python file?",
+    "options": ["python file.py", "run file", "execute"],
+    "answer": 0
+  },
+  "100": {
+    "question": "Python is best for?",
+    "options": ["AI", "Web", "All"],
+    "answer": 2
+  }
 }
